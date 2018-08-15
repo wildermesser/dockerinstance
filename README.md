@@ -1,2 +1,5 @@
 # dockerinstance
-Tf module for GCP ubuntu 18.04 instance with docker daemon
+Tf module for GCP instance
+* Add GCP DNS entry with NAT instance ip
+* Custom remote inline provisioning
+* Open GCP firewall tcp ports from list type variable
