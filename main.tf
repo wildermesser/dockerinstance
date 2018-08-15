@@ -29,7 +29,6 @@ resource "google_compute_instance" "instance" {
 
   provisioner "file" {
     source      = "${var.files_dir}"
-    source      = "../../docker-compose/${var.instance_name}/"
     destination = "~"
   }
 
