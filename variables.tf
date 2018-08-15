@@ -54,5 +54,4 @@ variable "remote_commands" {
 
 variable "files_dir" {
   description = "Path to dir with files for copy to instance HOME dir"
-  default     = "../../docker-compose/${var.instance_name}/"
 }
